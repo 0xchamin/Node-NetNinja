@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # node-js-playlist
 CSS and asset files for the Net Ninja YouTube nodejs playlist
 
@@ -7,3 +8,7 @@ If you have been following the tutorial, code for each and every lesson is added
 All files have been tested.
 
 If more files for  .\Practice\ should be added. They will be added very soon.
+=======
+# Node-NetNinja
+Source codes for net ninja tutorials
+>>>>>>> a788f1efe20d5645e34a53ce4a7f8fcfec48869f
