@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+      body{background: skyblue; font-family :  verdana; padding: 30px;}
+      h1{font-family: verdana; font-color: blue;}
+      p{font-family: cursive;}
+    </style>
+
+  </head>
+  <body>
+
+    <h1> PROFILE PAGE of <strong><%= person%></strong> ;D</h1>
+
+    <p>Let's do learn NodeJS</p>
+
+    <h3>Your job is  <%= data.job %></h3>
+
+
+    <h3>Your country is  <%= data.country %></h3>
+
+    <h2>Hobbies</h2>
+
+    <ul>
+
+        <% data.friends.forEach(function(item){ %>
+          <li><%=item %></li>
+        <%}); %>
+
+    </ul>
+
+  </body>
+
+</html>
